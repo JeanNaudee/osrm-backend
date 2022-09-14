@@ -8,6 +8,7 @@
 #include "extractor/suffix_table.hpp"
 
 #include "storage/io.hpp"
+
 #include "util/assert.hpp"
 #include "util/connectivity_checksum.hpp"
 #include "util/coordinate.hpp"
@@ -30,7 +31,7 @@
 #include <unordered_map>
 
 #include "blocked_range.h"
-#include <src/extractor/parallel_for.h>
+#include "parallel_for.h"
 #include "parallel_pipeline.h"
 
 namespace std

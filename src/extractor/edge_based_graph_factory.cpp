@@ -32,7 +32,7 @@
 
 #include "blocked_range.h"
 #include <src/extractor/parallel_for.h>
-#include <src/extractor/parallel_pipeline.h>
+#include "parallel_pipeline.h"
 
 namespace std
 {

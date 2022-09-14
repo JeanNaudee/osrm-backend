@@ -16,7 +16,7 @@
 #include "extractor/query_node.hpp"
 #include "extractor/turn_lane_types.hpp"
 #include "extractor/way_restriction_map.hpp"
-#include "extractor/traffic_signals.hpp"
+#include "traffic_signals.hpp"
 
 #include "util/concurrent_id_map.hpp"
 #include "util/deallocating_vector.hpp"

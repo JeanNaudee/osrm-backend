@@ -1,4 +1,4 @@
-#include "extractor/edge_based_graph_factory.hpp"
+#include "edge_based_graph_factory.hpp"
 #include "extractor/conditional_turn_penalty.hpp"
 #include "extractor/edge_based_edge.hpp"
 #include "extractor/files.hpp"

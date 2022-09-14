@@ -1,7 +1,7 @@
-#include "src/extractor/edge_based_graph_factory.hpp"
-#include "src/extractor/conditional_turn_penalty.hpp"
-#include "extractor/edge_based_edge.hpp"
-#include "src/extractor/files.hpp"
+#include "include/extractor/edge_based_graph_factory.hpp"
+#include "include/extractor/conditional_turn_penalty.hpp"
+#include "include/extractor/edge_based_edge.hpp"
+#include "include/extractor/files.hpp"
 #include "extractor/intersection/intersection_analysis.hpp"
 #include "extractor/scripting_environment.hpp"
 #include "extractor/serialization.hpp"
@@ -30,9 +30,9 @@
 #include <tuple>
 #include <unordered_map>
 
-#include <extractor/blocked_range.h>
-#include <extractor/parallel_for.h>
-#include <extractor/parallel_pipeline.h>
+#include <src/extractor/blocked_range.h>
+#include <src/extractor/parallel_for.h>
+#include <src/extractor/parallel_pipeline.h>
 
 namespace std
 {

@@ -30,8 +30,8 @@
 #include <tuple>
 #include <unordered_map>
 
-#include <blocked_range.h>
-#include <parallel_for.h>
+#include <src/extractor/blocked_range.h>
+#include <src/extractor/parallel_for.h>
 #include <src/extractor/parallel_pipeline.h>
 
 namespace std
